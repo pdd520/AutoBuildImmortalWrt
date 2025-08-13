@@ -12,11 +12,6 @@ on:
           - 6.1.146
           - 6.6.93
           - 6.12.39
-      auto_kernel:
-        description: "自动使用最新内核"
-        required: false
-        default: true
-        type: boolean
       include_docker:
         description: |
           是否编译 Docker 插件
