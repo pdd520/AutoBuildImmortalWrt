@@ -31,12 +31,12 @@ on:
       skip_imagebuilder:
         description: "直接使用底包快速构建固件, 忽略自定义插件 ----（跳过 ImageBuilder）"
         required: false
-        default: true
+        default: false
         type: boolean
       replace_banner:
         description: '替换为ImmortalWrt的banner信息'
         required: false
-        default: false
+        default: true
         type: boolean
       rootfs_partsize:
         description: '软件包大小1G固定'
