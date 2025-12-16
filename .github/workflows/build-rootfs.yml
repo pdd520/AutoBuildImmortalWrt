@@ -5,13 +5,11 @@ on:
       openwrt_kernel:
         description: "选择构建的内核"
         required: false
-        default: "6.12.39"
+        default: "6.6.119"
         type: choice
         options:
-          - 5.15.189
-          - 6.1.146
-          - 6.6.93
-          - 6.12.39
+          - 6.6.119
+          - 6.12.62
       include_docker:
         description: |
           是否编译 Docker 插件
