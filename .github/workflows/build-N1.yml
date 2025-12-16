@@ -8,23 +8,19 @@ on:
         default: "24.10.4"
         type: choice
         options:
-          - 24.10.0
-          - 24.10.1
-          - 24.10.2
-          - 24.10.3
           - 24.10.4
       openwrt_kernel:
         description: "选择构建的内核(斐讯N1)"
         required: false
-        default: "6.12.39"
+        default: "6.6.119"
         type: choice
         options:
-          - 5.4.291
-          - 5.10.235
-          - 5.15.189
-          - 6.1.146
-          - 6.6.99
-          - 6.12.39
+          - 5.4.302
+          - 5.10.247
+          - 5.15.197
+          - 6.1.159
+          - 6.6.119
+          - 6.12.62
       include_docker:
         description: |
           是否编译 Docker 插件
